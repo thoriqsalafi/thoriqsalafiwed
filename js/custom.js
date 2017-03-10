@@ -7,7 +7,7 @@ Theme by: WebThemez.com
 Note: donate to remove backlink form the site
 */
 $( function() {
-        var endDate = "July  20, 2017 08:00:00";
+        var endDate = "July  09, 2017 08:00:00";
 
         $('.countdown.simple').countdown({ date: endDate });
 
@@ -98,7 +98,7 @@ var customScripts = {
 }
 $('document').ready(function () {
 	 $.backstretch([
-      "images/img2.jpg"
+      "images/img1.jpg"
     , "images/img2.jpg"
   ], {duration: 3000, fade: 1250});
   

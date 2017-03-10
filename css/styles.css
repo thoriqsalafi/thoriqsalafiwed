@@ -267,7 +267,7 @@ h1, h2, h3, h4, h5, h6, #home .heading strong {
 	border: none;
 	padding: 22px 4px;
 	outline: none;
-	color: #FFFFFF;
+	color: #000000 ;
 	margin: 0;
 	width: 210px;
 	max-width: 100%;
@@ -998,7 +998,7 @@ color: #212C29;
 }
 .item-content .fa {
 	position: absolute;
-	color: #646464;
+	color: #000000;
 	font-size: 4.5em;
 	top: 36px;
 }

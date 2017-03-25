@@ -212,7 +212,7 @@ body {
 }
 ::selection {
 	color: #fff;
-	background: #F049B2];
+	background: #F049B2;
 }
 
 ::-moz-selection {
@@ -352,7 +352,7 @@ a:hover {
 }
 .copyright {
 	color: #FFF4F4;
-	background: #ffc2c1;
+	background: #f5ffe0; <!-- ini1 -->
 	padding: 20px 0;
 }
 #top {
@@ -552,7 +552,7 @@ h2, .h2 {
 	/* background: url('../images/dots.png'); */
 	background-repeat: repeat;
 	height: 700px;
-	background: rgba(224, 73, 222, 0.13);
+	background: url('../images/leaves.jpg'); <!-- ini1 -->
 }
 /* wtMenu
 ----------------------------------------------*/
@@ -611,7 +611,7 @@ h2, .h2 {
 	margin-top: 18%;
 }
 #home .heading h2 {
-	color: #fff;
+	color: #000;
 	font-size: 54px !important;
 }
 #home .heading strong {
@@ -799,7 +799,7 @@ h2, .h2 {
 }
 /***************************************/
 #counter {
-background: rgba(224, 73, 222, 0.13);
+background: rgba(138, 226, 153, 0.13); <!-- ini1 -->
 padding: 15px 0;
 }
 .page-section h1 {
@@ -852,7 +852,7 @@ a.arrow-link:hover {
 	color: #fff;
 }
 .colord {
-	background: #23CA9D;
+	background: #148700; <!-- ini1 -->
 	background: #c43a36;
 }
 .colord p {
@@ -882,7 +882,7 @@ a.arrow-link:hover {
 	color: #222;
 }
 #contactUs .heading h2 {
-	color: #fff;
+	color: #000;
 }
 .sub-heading {
 	padding: 15px 0;
@@ -939,7 +939,7 @@ img, video, iframe, embed, object {
 	padding-top: 35px;
 	padding-bottom: 25px;
 	overflow: hidden;
-	color: #052260;
+	color: #00ff00;
 }
 #aboutUs p{
 color: #212C29;
@@ -1103,17 +1103,17 @@ body {
 	margin-right: 6px;
 }
 footer {
-	border-top: 1px solid #ffc2c1;
+	border-top: 1px solid #f7ffe6;
 	padding: 35px 0 15px;
 	background: #FEFDFD;
 }
 .social a:hover {
-	color: #818181;
+	color: #515050; <!-- ini1 -->
 }
 .social a {
 	font-size: 32px;
 	margin: 0 10px;
-	color: #ffc2c1;
+	color: #515050; 
 }
 .contact ul li {
 	margin-bottom: 10px;
@@ -1269,11 +1269,11 @@ nav#filter li {
 }
 .parlex-back {
 	padding: 30px 0;
-	background-color: rgba(240, 194, 193, 1);
-	color: #FDFDFD !important;
+	background-color: rgba(245, 255, 224, 1); <!-- ini1 -->
+	color: #515050;
 }
 .parlex-back .heading p {
-	color: #FDFDFD;
+	color: #515050;
 	font-weight: normal;
 }
 .customNavigation {

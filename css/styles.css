@@ -551,7 +551,7 @@ h2, .h2 {
 .banner-container {
 	/* background: url('../images/dots.png'); */
 	background-repeat: repeat;
-	height: 900px;
+	height: 700px;
 	background: url('../images/leaves.jpg'); <!-- ini1 -->
 }
 /* wtMenu
@@ -1183,7 +1183,7 @@ footer {
 
 @media (max-width: 480px) {
 .banner-container {
-	height: 355px;
+	height: 500px;
 }
 #home .heading h1{
 font-size: 43px !important;

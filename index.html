@@ -10,6 +10,12 @@ Donate to remove backlink form the site
 <html lang="en-gb" class="no-js">
 <!--<![endif]-->
 <head>
+<style>
+      #map {
+        height: 200px;
+        width: 100%;
+       }
+    </style>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <!--[if lt IE 9]> 
@@ -77,6 +83,27 @@ Donate to remove backlink form the site
         <h3>WEDDING LOCATION</h3>
         <p>RT 2 RW 3 Dukuh Krajan, Ketug, Butuh, Purworejo, Central Java</p>
       </div>
+
+
+      <div class="col-md-3 text-center"> 
+      <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAc_a5qIgyXs5kO_n4b8hRPSFXvkA_4Sdo&callback=initMap">
+    </script>
+    </div>
+
       <!-- end: --> 
       
       <!-- item -->
